@@ -38,7 +38,6 @@ Interactive JavaScript features
 Horizon-Realty/
 
 ├── index.html          # Homepage
-
 ├── properties.html     # Properties with filters
 
 ├── about.html          # About Us page
@@ -67,6 +66,14 @@ Mahida Nayyar – 25F-0795
 
 **Screenshots**
 
+### 1. Homepage
+![Homepage](screenshots/HomePage.png)
+
+### 2. Properties Page
+![Property Page](screenshots/PropertyPage.png)
+
+### 3. Contact Us
+![ContactUs Page](screenshots/ContactUs.png)
 
 **Academic Note**
 
