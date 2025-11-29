@@ -34,6 +34,7 @@ Clean and professional design
 Interactive JavaScript features
 
 **Project Structure**
+
 Horizon-Realty/
 ├── index.html          # Homepage
 ├── properties.html     # Properties with filters
