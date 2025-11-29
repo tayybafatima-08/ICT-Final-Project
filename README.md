@@ -36,13 +36,22 @@ Interactive JavaScript features
 **Project Structure**
 
 Horizon-Realty/
+
 ├── index.html          # Homepage
+
 ├── properties.html     # Properties with filters
+
 ├── about.html          # About Us page
+
 ├── contact.html        # Contact page
+
 ├── style.css           # Main stylesheet
+
 ├── script.js           # JavaScript functionality
-└── images/             # Image assets
+
+├── images/             # Image assets
+
+└── screenshots/        # Screenshots
 
 **Live Demo**
 
