@@ -1,6 +1,6 @@
 # ICT-Final-Project
 
-**Horizon Realty – Real Estate Business Website**
+# **Horizon Realty – Real Estate Business Website**
 
 **Overview**
 
