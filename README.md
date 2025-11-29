@@ -9,11 +9,10 @@ The project demonstrates the core web-development skills of the team, featuring 
 
 **Objectives**
 
-Create a professional real estate website.
-Display properties with images, prices, and details.
-Implement responsive design for mobile, tablet, and desktop.
-Use JavaScript for interactive elements (sliders, menu, forms).
-Provide a smooth user experience using semantic HTML and structured CSS.
+- Create a professional real estate website.
+- Display properties with images, prices, and details.
+- Implement responsive design for mobile, tablet, and desktop.
+- Provide a smooth user experience using semantic HTML and structured CSS.
 
 **Technologies Used**
 
@@ -24,14 +23,14 @@ Font Awesome – Icons for UI enhancement
 
 **Features**
 
-Modern homepage with hero section
-Property listings with images & descriptions
-Contact form for client inquiries
-About Us section
-Team Profiles
-Responsive navigation bar
-Clean and professional design
-Interactive JavaScript features
+- Modern homepage with hero section
+- Property listings with images & descriptions
+- Contact form for client inquiries
+- About Us section
+- Team Info & Map
+- Responsive navigation bar
+- Clean and professional design
+- Interactive JavaScript features
 
 **Project Structure**
 
@@ -67,14 +66,11 @@ Mahida Nayyar – 25F-0795
 
 **Screenshots**
 
-1. Homepage
-![Homepage](screenshots/HomePage.png)
-2. Propertiespage
-![Propertiespage](screenshots/PropertiesPage.png)
-3. AboutUspage
-![AboutUspage](screenshots/AboutUsPage.png)
-4. ContactUspage
-![ContactUspage](screenshots/ContactUsPage.png)
+- [Homepage Screenshot](screenshots/HomePage.png)
+- [Properties Page Screenshot](screenshots/PropertiesPage.png)
+- [ContactUs Page Screenshot](screenshots/AboutUsPage.png)
+- [AboutUs Page Screenshot](screenshots/ContactUsPage.png)
+
 
 **Academic Note**
 
