@@ -67,6 +67,15 @@ Mahida Nayyar – 25F-0795
 
 **Screenshots**
 
+1. Homepage
+![Homepage](screenshots/HomePage.png)
+2. Propertiespage
+![Propertiespage](screenshots/PropertiesPage.png)
+3. AboutUspage
+![AboutUspage](screenshots/AboutUsPage.png)
+4. ContactUspage
+![ContactUspage](screenshots/ContactUsPage.png)
+
 **Academic Note**
 
 This project was developed as part of our academic curriculum to demonstrate proficiency in front-end web development technologies and responsive design principles.
