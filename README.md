@@ -67,13 +67,16 @@ Mahida Nayyar – 25F-0795
 
 **Screenshots**
 
-### 1. Homepage
-![Homepage](screenshots/HomePage.png)
+# 1. Homepage
+![Homepage]((https://github.com/tayybafatima-08/ICT-Final-Project/blob/main/screenshots/About%20Us%20Page.png))
 
-### 2. Properties Page
+# 2. Properties Page
 ![Property Page](screenshots/PropertyPage.png)
 
-### 3. Contact Us
+# 3. About Us
+![AboutUs Page](https://github.com/tayybafatima-08/ICT-Final-Project/blob/main/screenshots/About%20Us%20Page.png)
+
+# 3. Contact Us
 ![ContactUs Page](screenshots/About Us Page.png)
 
 **Academic Note**
