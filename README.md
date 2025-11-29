@@ -74,7 +74,7 @@ Mahida Nayyar – 25F-0795
 ![Property Page](screenshots/PropertyPage.png)
 
 ### 3. Contact Us
-![ContactUs Page](screenshots/ContactUsPage.png)
+![ContactUs Page](screenshots/About Us Page.png)
 
 **Academic Note**
 
