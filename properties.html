@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties | Horizon Realty</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">Horizon<span>Realty</span></a>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="properties.html" class="active">Properties</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="mobile-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header" style="background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/properties.jpg') no-repeat center center/cover;">
+        <div class="container">
+            <h1>Our Properties</h1>
+            <p>Find your perfect home from our collection</p>
+        </div>
+    </section>
+
+    <!-- Filters Section -->
+    <section class="property-filters">
+        <div class="container">
+            <div class="filter-options">
+                <select id="property-type">
+                    <option value="all">All Types</option>
+                    <option value="house">House</option>
+                    <option value="apartment">Apartment</option>
+                    <option value="villa">Villa</option>
+                </select>
+                <select id="price-range">
+                    <option value="all">Any Price</option>
+                    <option value="0-500000">Under $500,000</option>
+                    <option value="500000-1000000">$500,000 - $1,000,000</option>
+                    <option value="1000000+">Over $1,000,000</option>
+                </select>
+                <select id="bedrooms">
+                    <option value="all">Any Bedrooms</option>
+                    <option value="1">1+ Bedrooms</option>
+                    <option value="2">2+ Bedrooms</option>
+                    <option value="3">3+ Bedrooms</option>
+                    <option value="4">4+ Bedrooms</option>
+                </select>
+                <button class="btn" onclick="applyFilters()">Apply Filters</button>
+                <button class="btn btn-outline" onclick="resetFilters()">Reset</button>
+            
+            </div>
+        </div>
+    </section>
+
+    <!-- Properties Grid -->
+    <section class="properties-page">
+        <div class="container">
+            <div class="properties-grid">
+                <!-- Property 1 -->
+                <div class="property-card" data-type="apartment" data-price="850000" data-bedrooms="3">
+                    <div class="property-img">
+                        <img src="images/photo-1.jpg" alt="Modern Apartment">
+                    </div>
+                    <div class="property-info">
+                        <h3>Modern Apartment</h3>
+                        <p class="price">$850,000</p>
+                        <p class="address">New York, NY</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler"></i> 1,850 sqft</span>
+                        </div>
+                        <button class="btn" onclick="contactAboutProperty('Modern Apartment')">Contact Agent</button>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property-card" data-type="villa" data-price="2500000" data-bedrooms="5">
+                    <div class="property-img">
+                        <img src="images/photo-2.jpg" alt="Luxury Villa">
+                    </div>
+                    <div class="property-info">
+                        <h3>Luxury Villa</h3>
+                        <p class="price">$2,500,000</p>
+                        <p class="address">Miami, FL</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 5 Beds</span>
+                            <span><i class="fas fa-bath"></i> 4 Baths</span>
+                            <span><i class="fas fa-ruler"></i> 4,200 sqft</span>
+                        </div>
+                        <button class="btn" onclick="contactAboutProperty('Luxury Villa')">Contact Agent</button>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="property-card" data-type="house" data-price="650000" data-bedrooms="4">
+                    <div class="property-img">
+                        <img src="images/photo-3.jpg" alt="Suburban Home">
+                    </div>
+                    <div class="property-info">
+                        <h3>Family Home</h3>
+                        <p class="price">$650,000</p>
+                        <p class="address">Chicago, IL</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 4 Beds</span>
+                            <span><i class="fas fa-bath"></i> 3 Baths</span>
+                            <span><i class="fas fa-ruler"></i> 2,800 sqft</span>
+                        </div>
+                        <button class="btn" onclick="contactAboutProperty('Family Home')">Contact Agent</button>
+                    </div>
+                </div>
+
+                <!-- Property 4 -->
+                <div class="property-card" data-type="apartment" data-price="1200000" data-bedrooms="2">
+                    <div class="property-img">
+                        <img src="images/photo-6.jpeg" alt="Downtown Penthouse">
+                    </div>
+                    <div class="property-info">
+                        <h3>Downtown Penthouse</h3>
+                        <p class="price">$1,200,000</p>
+                        <p class="address">Los Angeles, CA</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 2 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2 Baths</span>
+                            <span><i class="fas fa-ruler"></i> 1,500 sqft</span>
+                        </div>
+                        <button class="btn" onclick="contactAboutProperty('Downtown Penthouse')">Contact Agent</button>
+                    </div>
+                </div>
+
+                <!-- Property 5 -->
+                <div class="property-card" data-type="villa" data-price="3750000" data-bedrooms="6">
+                    <div class="property-img">
+                        <img src="images/photo-7.jpeg" alt="Countryside Estate">
+                    </div>
+                    <div class="property-info">
+                        <h3>Countryside Estate</h3>
+                        <p class="price">$3,750,000</p>
+                        <p class="address">Austin, TX</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 6 Beds</span>
+                            <span><i class="fas fa-bath"></i> 5 Baths</span>
+                            <span><i class="fas fa-ruler"></i> 5,600 sqft</span>
+                        </div>
+                        <button class="btn" onclick="contactAboutProperty('Countryside Estate')">Contact Agent</button>
+                    </div>
+                </div>
+
+                <!-- Property 6 -->
+                <div class="property-card" data-type="house" data-price="950000" data-bedrooms="3">
+                    <div class="property-img">
+                        <img src="images/photo-8.jpeg" alt="Urban Townhouse">
+                    </div>
+                    <div class="property-info">
+                        <h3>Urban Townhouse</h3>
+                        <p class="price">$950,000</p>
+                        <p class="address">Boston, MA</p>
+                        <div class="features">
+                            <span><i class="fas fa-bed"></i> 3 Beds</span>
+                            <span><i class="fas fa-bath"></i> 2.5 Baths</span>
+                            <span><i class="fas fa-ruler"></i> 2,100 sqft</span>
+                        </div>
+                        <button class="btn" onclick="contactAboutProperty('Urban Townhouse')">Contact Agent</button>
+                    </div>
+                </div>
+            </div>
+            <div class="no-results" style="display: none;">
+                <h3>No properties found</h3>
+                <p>Try adjusting your filters to see more results.</p>
+                <button class="btn btn-outline" onclick="resetFilters()">Reset All Filters</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Horizon Realty</h3>
+                    <p>Your trusted partner in finding the perfect property. We specialize in premium residential and commercial real estate.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="properties.html">Properties</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Properties</h3>
+                    <ul class="footer-links">
+                        <li><a href="properties.html">Residential</a></li>
+                        <li><a href="properties.html">Apartments</a></li>
+                        <li><a href="properties.html">Luxury Homes</a></li>
+                        <li><a href="properties.html">New Developments</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to our newsletter for the latest property updates and market insights.</p>
+                    <div class="newsletter-box">
+                        <input type="email" placeholder="Your Email">
+                        <button><i class="fas fa-paper-plane"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Horizon Realty. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
