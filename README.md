@@ -65,8 +65,7 @@ Sukaina Kazmi – 25F-0805
 
 Mahida Nayyar – 25F-0795
 
-# 3. Contact Us
-![ContactUs Page](screenshots/About Us Page.png)
+**Screenshots**
 
 **Academic Note**
 
