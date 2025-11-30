@@ -1,7 +1,7 @@
 # ICT-Final-Project
 
-# **Horizon Realty – Real Estate Business Website**
-
+_**Horizon Realty – Real Estate Business Website**
+_
 **Overview**
 
 Horizon Realty is a modern, user-friendly real estate business website designed to showcase property listings, provide essential real-estate services, and offer a professional browsing experience.
