@@ -54,7 +54,7 @@ Horizon-Realty/
 
 **Live Demo**
 
-https://github.com/tayybafatima-08/ICT-Final-Project.git
+https://tayybafatima-08.github.io/ICT-Final-Project/
 
 **Group Members**
 
