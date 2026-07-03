@@ -54,7 +54,7 @@ Horizon-Realty/
 
 **Live Demo**
 
-https://tayybafatima-08.github.io/ICT-Final-Project/
+https://horizon-realty-website.vercel.app/
 
 **Group Members**
 
